@@ -15,7 +15,7 @@
     src: url(../fonts/Raleway-Italic.ttf);
 }
 
-h1 {
+h1, h3{
     font-family: "lato", sans-serif;
 }
 
