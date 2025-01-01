@@ -1,3 +1,4 @@
+/*début style header*/
 header{
     background-color: #17abb3;
     display: flex;
@@ -12,7 +13,7 @@ header{
     width: 120px;
     height: 120px;
     margin: 20px 80px;
-
+    cursor: zoom-in;
 }
 
 .identity{
@@ -34,7 +35,7 @@ a{
     text-align: start;
     font-style:normal;
     text-decoration: none;
-    margin: 10px 0px;
+    margin: 5px 0px;
 }
 
 .icon{
@@ -42,4 +43,6 @@ a{
     align-items: center;
     margin-right: 10px;
 }
+/*fin style header*/
+
 
