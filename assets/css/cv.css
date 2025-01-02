@@ -45,4 +45,23 @@ a{
 }
 /*fin style header*/
 
+/*début partie gauche et droite du cv*/
+main{
+    display: flex;
+    flex-direction: row;
+}
+.left-main{
+    width: 600px;
+    padding: 50px;
+    background-color: #e3e3e3;
+}
 
+.skills, .languages{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-main{
+    padding: 50px;
+    background-color: #ffffff;
+}
