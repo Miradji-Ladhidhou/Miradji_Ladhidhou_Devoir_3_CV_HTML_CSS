@@ -1,0 +1,68 @@
+/*début style header*/
+header{
+    background-color: #17abb3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-profil{
+    border: solid 5px #ffffff;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin: 20px 80px;
+    cursor: zoom-in;
+}
+
+.identity{
+    color: #ffffff;
+    margin-right: 150px;
+    align-items: center;
+    text-align: center;
+}
+
+.coordinate{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+a{
+    color: #ffffff;
+    display: block;
+    text-align: start;
+    font-style:normal;
+    text-decoration: none;
+    margin: 5px 0px;
+}
+
+.icon{
+    width: 12px;
+    align-items: center;
+    margin-right: 10px;
+}
+/*fin style header*/
+
+/*début partie gauche et droite du cv*/
+main{
+    display: flex;
+    flex-direction: row;
+}
+.left-main{
+    width: 600px;
+    padding: 50px;
+    background-color: #e3e3e3;
+}
+
+.skills, .languages{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-main{
+    padding: 50px;
+    background-color: #ffffff;
+}
+
