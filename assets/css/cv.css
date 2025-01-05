@@ -101,6 +101,7 @@ span{
 .profile{
     text-indent: 20px;
     text-align: justify;
+    line-height: 20px;
 }
 
 .hover{
