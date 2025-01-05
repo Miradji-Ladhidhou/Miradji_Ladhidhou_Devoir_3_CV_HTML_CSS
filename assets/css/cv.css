@@ -122,3 +122,27 @@ span{
     font-style: italic;
 }
 /* fin style de la partie doite du cv*/
+
+/* début style footer du cv*/
+footer{
+    background-color: #17abb3;
+    height: 70px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.social-networks{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.icon-social{
+    width: 15px;
+    margin: 0px 15px;
+}
+
+.icon-social:hover{
+    opacity: 0.6;
+}
+/* fin style footer du cv*/
