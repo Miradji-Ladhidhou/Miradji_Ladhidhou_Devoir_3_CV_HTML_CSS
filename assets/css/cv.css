@@ -44,3 +44,49 @@ a{
     margin-right: 10px;
 }
 /*fin style header*/
+
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+/* début style de la partie gauche du cv*/
+.left-main{
+    width: 1400px;
+    padding: 30px;
+    background-color: #e3e3e3;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 25px;
+}
+
+.star{
+    color: #17abb3;
+}
+
+.languages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 25px;
+}
+
+ul{
+    margin-left: 15px;
+    list-style:square;
+    color: #17abb3;
+}
+
+span{
+    color: #333333;
+}
+/* fin style de la partie gauche du cv*/
