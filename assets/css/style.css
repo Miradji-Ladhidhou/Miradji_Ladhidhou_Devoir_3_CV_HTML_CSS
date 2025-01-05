@@ -22,9 +22,12 @@ h1,h2,h3,h4{
 h3{
     font-family: "lato", sans-serif;
     color: #17abb3;
-    margin: 20px 0px;
+    margin: 15px 0px 5px;
 }
 
+hr{
+    margin-bottom: 15px;
+}
 .date{
     color: #17abb3;
 }
