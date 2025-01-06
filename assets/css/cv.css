@@ -179,10 +179,6 @@ footer{
         justify-content: center;
     }
 
-    .coordinate{
-        margin: 0, auto;
-    }
-
     .img-profil{
         border: solid 5px #ffffff;
         border-radius: 50%;
@@ -209,6 +205,18 @@ footer{
         display: flex;
         flex-direction: column;
         height: 130px;
+        line-height: 20px;
+        text-align: center;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 480px){
+    .hover{
+        display: flex;
+        flex-direction: column;
+        height: 220px;
         line-height: 20px;
         text-align: center;
         justify-content: center;
