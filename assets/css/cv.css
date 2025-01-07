@@ -53,7 +53,7 @@ main{
 
 /* début style de la partie gauche du cv*/
 .left-main{
-    width: 1400px;
+    width: 25%;
     padding: 30px;
     background-color: #e3e3e3;
 }
@@ -96,6 +96,7 @@ span{
 .right-main{
     padding: 30px;
     background-color: #ffffff;
+    width: 75%;
 }
 
 .profile{
@@ -204,13 +205,25 @@ footer{
         background-color: #f5f5f5;
         font-size: 95%;
     }
+
+    .left-main{
+        width: 30%;
+        padding: 30px;
+        background-color: #e3e3e3;
+    }
+
+    .right-main{
+        padding: 30px;
+        background-color: #ffffff;
+        width: 70%;
+    }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 550px){
     .hover{
         display: flex;
         flex-direction: column;
-        height: 220px;
+        height: 150px;
         line-height: 20px;
         text-align: center;
         justify-content: center;
@@ -219,6 +232,18 @@ footer{
     html{
         background-color: #f5f5f5;
         font-size: 90%;
+    }
+
+    .left-main{
+        width: 40%;
+        padding: 10px;
+        background-color: #e3e3e3;
+    }
+
+    .right-main{
+        padding: 10px;
+        background-color: #ffffff;
+        width: 60%;
     }
 }
 
