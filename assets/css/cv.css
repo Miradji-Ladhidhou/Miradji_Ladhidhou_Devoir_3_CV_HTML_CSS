@@ -51,7 +51,7 @@ main{
     flex-direction: row;
 }
 
-/* début style de la partie gauche du cv*/
+/* début style de la section gauche du cv*/
 .left-main{
     width: 25%;
     padding: 30px;
@@ -89,10 +89,10 @@ ul{
 span{
     color: #333333;
 }
-/* fin style de la partie gauche du cv*/
+/* fin style de la section gauche du cv*/
 
 
-/* début style de la partie doite du cv*/
+/* début style de la section doite du cv*/
 .right-main{
     padding: 30px;
     background-color: #ffffff;
@@ -123,7 +123,7 @@ span{
 .italic{
     font-style: italic;
 }
-/* fin style de la partie doite du cv*/
+/* fin style de la section doite du cv*/
 
 /* début style footer du cv*/
 footer{
@@ -150,7 +150,7 @@ footer{
 /* fin style footer du cv*/
 
 
-
+/* début styles responsives */
 @media screen and (max-width: 1108px) {
     .skills, .languages{
         display: flex;
@@ -246,6 +246,8 @@ footer{
         width: 60%;
     }
 }
+
+/* fin styles responsives */
 
 
 
