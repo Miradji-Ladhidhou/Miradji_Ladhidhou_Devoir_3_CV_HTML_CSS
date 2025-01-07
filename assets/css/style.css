@@ -15,14 +15,26 @@
     src: url(../fonts/Raleway-Italic.ttf);
 }
 
-h1,h2,h3,h4{
+h1{
     font-family: "lato", sans-serif;
+    font-size: 2.5rem;
+}
+
+h2{
+    font-family: "lato", sans-serif;
+    font-size: 1.7rem;
 }
 
 h3{
     font-family: "lato", sans-serif;
     color: #17abb3;
     margin: 15px 0px 5px;
+    font-size: 1.5rem;
+}
+
+h4{
+    font-family: "lato", sans-serif;
+    font-size: 1.1rem;
 }
 
 hr{
