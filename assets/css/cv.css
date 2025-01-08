@@ -1,0 +1,149 @@
+/*début style header*/
+header{
+    background-color: #17abb3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-profil{
+    border: solid 5px #ffffff;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin: 20px 90px;
+    cursor: zoom-in;
+}
+
+.identity{
+    color: #ffffff;
+    margin-right: 290px;
+    align-items: center;
+    text-align: center;
+}
+
+.coordinate{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+a{
+    color: #ffffff;
+    display: block;
+    text-align: start;
+    font-style:normal;
+    text-decoration: none;
+    margin: 5px 0px;
+}
+
+.icon{
+    width: 12px;
+    align-items: center;
+    margin-right: 10px;
+}
+/*fin style header*/
+
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+/* début style de la partie gauche du cv*/
+.left-main{
+    width: 1400px;
+    padding: 30px;
+    background-color: #e3e3e3;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 25px;
+}
+
+.star{
+    color: #17abb3;
+}
+
+.languages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 25px;
+}
+
+ul{
+    margin-left: 15px;
+    list-style:square;
+    color: #17abb3;
+}
+
+span{
+    color: #333333;
+}
+/* fin style de la partie gauche du cv*/
+
+
+/* début style de la partie doite du cv*/
+.right-main{
+    padding: 30px;
+    background-color: #ffffff;
+}
+
+.profile{
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+.hover{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0px;
+    height: 50px;
+    align-items: center;
+}
+
+.hover:hover{
+    background-color: #e3e3e3;
+    border-left: solid 5px #17abb3;
+    padding: 0px 5px;
+}
+
+.italic{
+    font-style: italic;
+}
+/* fin style de la partie doite du cv*/
+
+/* début style footer du cv*/
+footer{
+    background-color: #17abb3;
+    height: 70px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.social-networks{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.icon-social{
+    width: 20px;
+    margin: 0px 15px;
+}
+
+.icon-social:hover{
+    opacity: 0.6;
+}
+/* fin style footer du cv*/
